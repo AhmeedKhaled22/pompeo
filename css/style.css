@@ -1,0 +1,421 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    /* font-family: Pacifico, sans-serif;; */
+}
+/* nav bar */
+.content-nav{
+  position:fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+nav ,.porcelain ,.ceramic{
+width: 80%;
+margin: 20px auto; 
+padding: 0 20px;
+background-color: #fff;
+padding:  20px;
+text-align: center;
+}
+
+.logo{
+  font-family: "Pacifico", cursive
+}
+nav .logo {
+  float: left;        
+  font-size: 24px;
+  font-weight: bold;
+}
+ nav ul{
+  float: right;
+list-style: none;
+}
+nav ul li{
+padding: 0 20px;
+  display: inline-block;
+}
+ ul li a{
+  text-decoration: none;
+color: #6c6c6c;
+  text-transform: capitalize;
+}
+li a.home{
+  color:red
+}
+div.clr{
+clear: both;
+}
+/* contet section  */
+.contet-section{
+background-image: url(../images/5bc26c68ca643a35ff2e403f_scott-webb-268893-unsplash.jpg);
+height: 100vh;
+background-size: cover;
+width: 100%;
+position: relative;
+background-color: rgba(219, 219, 219, .1);;
+}
+.contet {
+  position: absolute;
+  top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    text-align: left;
+    width: 50%;
+}
+.top-text{
+  color: #d77474 !important;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    
+  }
+  .contet h1 
+{
+        color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    width: 50%;
+}
+h1 span ,.porcelain h2 span{
+color:#ac1313;
+font-family: Playfair Display, sans-serif;
+font-size: 40px;
+text-transform: capitalize;
+text-align: left;
+}
+span{
+    font-family: "Pacifico", cursive
+
+}
+.botoom-text{
+    color: #6c6c6c;
+    text-align: left;
+    margin-bottom: 50px;
+    font-family: Libre Franklin, sans-serif;
+        font-size: 16px;
+    line-height: 26px;
+
+}
+.contet button{
+  padding: 20px;
+  background-color: #ac1313;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+}
+.contet button:hover{
+  background-color: black;
+}
+/* img pompeo */
+.Pompeo{
+    background-image: url(../images/5e602d43ad635f0fe2d06a05_Untitled-2d2\ \(2\).png);
+    width: 1000px;
+    height: 500px;
+    float: right;
+    margin-top: 100px;
+    background-size: cover;
+        background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+/* porcleain items */
+.porcelain p{
+text-align: center;
+padding: 20px;
+}
+.porcelain h2{
+  width: auto;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    margin: 20px;
+}
+
+section.porcelain .item-proberty .item {
+background-color:orange ;
+position: relative;
+
+}
+.porcelain .item-proberty .contet-item{
+width: calc(100% / 3 - 20px);
+height: 300px;
+float: left;
+background-color: orange;
+border-radius: 50%;
+margin: 0px 10px;
+position: relative;
+padding: 50px;
+}
+.test{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.porcelain .item-proberty .contet-item img{
+  width: 50px;
+  height: 50px;
+
+}
+
+
+.porcelain .item-proberty .contet-item.one{
+background-color: #e4b366;
+border: 30px solid rgba(0, 0, 0, .05);
+color: #6c6c6c;
+
+}
+.porcelain .item-proberty .contet-item.tow{
+background-color: #f05b10;
+border: 30px solid rgba(0, 0, 0, .05);
+
+}
+.porcelain .item-proberty .contet-item.three{
+  background-color: #ac1313;
+border: 30px solid rgba(0, 0, 0, .05);
+}
+/* title-Porcelain*/
+.title-Porcelain{
+margin: 20px 0 ;
+padding: 20px 0 ;
+}
+.title-Porcelain .title-One,
+.title-Porcelain .title-tow
+{
+  float:left;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.title-Porcelain .title-One h4 , .title-Porcelain .title-One p,
+.title-Porcelain .title-tow h4 , .title-Porcelain .title-tow p{
+text-align: left;
+padding: 0;
+  margin: 20px 0;
+
+}
+.title-Porcelain .title-One p,
+.title-Porcelain .title-tow p{
+    margin-top: 20px;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+/* ceramic */
+
+section.ceramic{
+  height:50vh;
+    position: relative;
+
+}
+
+section.ceramic .gold .img-gold img{
+float: left;
+height: 500px;
+width: 50%;
+background-color: #f5f5f5;
+}
+
+section.ceramic .gold .title-gold{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0 50px;
+  text-transform: capitalize;
+  text-align: left;
+}
+section.ceramic .orange .img-orange img{
+float: right;
+height: 500px;
+width: 50%;
+background-color: #f5f5f5;
+}
+section.ceramic .orange .title-orange{
+    position: absolute;
+    left: 0%;
+    top: 200%;
+    padding: 0 50px;
+    text-transform: capitalize;
+      text-align: left;
+    width: 50%;
+}
+/* Pottery Collection */
+
+.collection.porcelain .collection .item-collection {
+width: calc(100% / 3 - 5px);
+float: left;
+padding: 20px 10px;
+
+}
+.collection.porcelain .collection .item-collection p{
+text-align: left;
+padding: 5px 0;
+color: #6c6c6c;}
+p.price{
+  color: black !important; 
+}
+.collection.porcelain .collection .item-collection img{
+width: 100%;
+}
+
+button{
+  margin: 50px 0;
+  padding: 20px 50px;
+  background-color: #ac1313;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+}
+
+section.start-Shopping{
+
+  background-image: url(../images/5bb966fd82df351adbb449c6_raul-cacho-oses-779595-unsplash-p-3200.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+/* pottery */
+
+section.start-Shopping{
+  position: relative;
+  font-size: larger;
+
+}
+section.start-Shopping .pottery{
+  position: absolute;
+  top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    text-align: left;
+    width: 50%;
+    
+}
+section.start-Shopping .pottery h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+section.start-Shopping .pottery p{
+  color:#6c6c6c ;
+}
+
+section.start-Shopping .pottery a{
+  color: red;
+}
+
+.latest-news.porcelain .img-news{
+  background-color: #e4b366;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+margin: auto;
+position: relative;
+
+}
+
+.latest-news.porcelain {
+  height: 55vh;
+  margin-bottom: 100px;
+
+}
+
+.latest-news.porcelain .img-news img{
+  position: absolute;
+  left: 50%;
+  top:25%; 
+  transform: translate(-50%);
+width: 40px;
+height: 40px;
+}
+.first-inp{
+  margin-bottom: 50px;
+}
+input[type="email"]{
+  width: 250px;
+padding: 10px 20px;
+
+}
+input[type="button"]{
+  width: 100px;
+padding: 10px 20px;
+background-color: black;
+color: white;
+border: none;
+}
+input[type="checkbox"]label{
+  margin-left: 5px;
+font-size: 30px;
+text-transform: capitalize;
+}
+
+
+label[for="sign-up"] {
+text-transform: capitalize;
+}
+
+/*  */
+
+/* .title-cont */
+.title-cont h4{
+  margin-bottom: 50px;
+    font-family: "Pacifico", cursive;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.items{
+width: calc(100% / 3 - 5px);
+float: left;
+padding: 20px 50px;
+
+}
+.items img{
+  width: 50px;
+}
+/*  */
+section.social{
+  background-color: #eee;
+  height:60vh;
+  text-align: center;
+  position: relative;
+}
+section.social .cont{
+  position: absolute;
+    left: 50%;
+  top:10%; 
+  transform: translate(-50%);
+}
+
+section.social .cont .title-cont{
+  margin-bottom: 50px;
+}
+section.social .items img{
+  margin-bottom: 10px;
+
+}
+
+footer{
+  height: 10vh;
+  background-color: rgba(3, 3, 3, 0.1);
+  text-align: center;
+  position: relative;
+margin: auto;
+padding: 25px;
+}
